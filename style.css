@@ -1,0 +1,75 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menubar
+{
+    width: 100%;
+    background-color: black;
+}
+
+li
+{
+    list-style: none;
+    /* padding: 0px 10px; */
+}
+
+ul
+{
+    display: flex;
+    justify-content: space-between;
+}
+.link
+{
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    padding: 0px 10px;
+}
+
+link:hover
+{
+    background-color: gray;
+}
+
+#green-box
+{
+    background-color: green;
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px)
+{
+    body
+    {
+        margin: 0px;
+        padding: 0px;
+    }
+  
+    ul
+    {
+        display: block;
+    }
+    
+    li
+    {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+     li:hover
+    {
+        padding: 0px 5px;
+    } 
+    
+     #green-box
+    {
+        background-color: black;
+    }
+    
+    .bg-color
+    {
+        background-color: green;
+    } 
+}
